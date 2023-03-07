@@ -13,7 +13,7 @@ public class DemoController {
 
 	@GetMapping("/")
 	public String getMessage() {
-		System.out.print("Calling getMessagess");
+		System.out.print("Calling getMessagesss");
 		return "demo";
 	}
 }
